@@ -1,0 +1,84 @@
+@charset "UTF-8";@charset "UTF-8";
+    *{
+        margin: 0px;
+        padding:0px;
+
+    }
+	.detailcontainer{width:50%; margin : 0 auto;border: 1px solid lightgray;}
+	.detailcontainer .recommend{float: right; margin-right :10px;}
+	.detailcontainer .clear{clear : both}
+	.detailcontainer .productwrap{border: 1px solid black; margin : 20px; }
+	.detailcontainer .productwrap .header{padding:20px; border-bottom: 1px solid black}
+	.detailcontainer .productwrap .productimg{display:inline-block; width : 30%}
+	.detailcontainer .productwrap .productimg input{width : 100%}
+	.detailcontainer .productwrap .productinfo{display:inline-block; vertical-align:top ; border: 1px solid black ; width:60%}
+    .detailcontainer .productwrap .productinfo .producttitle{width:100%; border: 1px solid black }
+    .detailcontainer .productwrap .productinfo .productdetail{ width:100%;display:inline-block; border: 1px solid black}
+
+	.detailcontainer .contents{overflow :auto;height:500px;}
+
+	.subtitle span{margin-right :10px;float :right;}
+	.title{margin-left :20px;}
+	.subtitle a{margin-left :30px;}
+	.bottom .bottomnav{float: right;}
+	.contents{padding : 30px;}
+	.bottom{padding-right: 10px;}
+	.bottom .up {float : right; margin-bottom : 10px;}
+	.bottom .clear{clear: both;}
+	.hd{padding: 0 16px;border: 1px solid lightgray;height: 44px;}
+	
+	.hd span{vertical-align: middle;}
+	
+	.comment{width : 100%;border: 1px solid lightgray;height: 44px;}
+	
+	.register{border: 1px solid lightgray;}
+	.register input{width : 100px;height : 40px;display: block;float: right;margin: 10px 10px 10px 0px;}
+
+	.register .clear{clear: both;}
+	
+	
+	
+	ul{list-style-type: none; padding-left: 0px;}
+	.row{background-color: lightgray;padding : 10px 30px 10px 30px; margin-top:20px;}
+	.row .commentday{float:right;}
+	.commentarea {width :70% ; margin : 0 auto;}
+	.commentarea .textspace{padding : 10px; border:1px solid black;}
+	.commentarea .textspace textarea{width : 100%; resize:none;}
+	
+	
+	.row .commentbody .commenthead .pro{   display: inline-block;}
+	.row .commentbody .commenthead .pro img{  vertical-align: middle; width : 50px;}
+	.row .commentbody .commenthead .writer{display: inline-block; }
+	.row .commentbody .commenthead .writer a{text-decoration: none;vertical-align: middle; color: black} 
+	
+	
+	.row .commentbody .recontents{padding : 10px 20px 10px 20px; border: 1px solid black; margin : 0px;background-color: white; height: 30px; }
+	.row .commentbody .commentre input{margin : 10px 0px 10px 0px ; float:right}
+	.row .commentbody .commentre .clear{clear : both}
+	.row .commentbody .recontents textarea{width :100%; resize:none; background-color:white; height:100%; border:0;}
+	
+	.rowre{
+		border : 1px solid black;
+		background-color: lightgray;
+		padding : 10px 30px 10px 60px;
+	}
+	.rowre .commentday{
+		float:right;
+	}
+
+	
+	.rowre .commentbody .up{ vertical-align: middle; display: inline-block; height: 30px;}
+	
+	.rowre .commentbody .commenthead .pro{   display: inline-block;}
+	.rowre .commentbody .commenthead .pro img{  vertical-align: middle; width : 50px;}
+	.rowre .commentbody .commenthead .writer{display: inline-block; }
+	.rowre .commentbody .commenthead .writer a{text-decoration: none;vertical-align: middle; color: black} 
+	
+	
+	.rowre .commentbody .recontents{padding : 10px 30px 10px 30px; border: 1px solid black; }
+
+	.rowre .commentbody .commentre input{margin : 10px 0px 10px 0px ; float:right}
+	.rowre .commentbody .commentre .clear{clear : both}
+	
+    .row{padding : 10px 30px 10px 30px;border-radius : 30px; margin-bottom:20px;background-color:#2196f36e}
+    .row .commentbody .commentre input{margin : 10px ; float:right; width:60px; height:30px; background-color:white; border-radius:10px;border:0px;}

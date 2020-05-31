@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+    *{
+        border: 0px;
+        padding : 0px;
+
+    }
+    .detailcontainer{width: 50%; margin : 0 auto; border :1px solid black;}
+     .detailcontainer .contents table{width : 100% ; padding : 40px;}
+
+	.titlearea  {margin : 10px;}
+    .titlearea textarea{width : 100%; resize:none; border:1px solid black; font-size:40px; }
+	.common{width : 100%; resize:none; font-size:30px;}
+
+   	 #ct{width:99%;  min-width:260px }
+	th{background-color : #abece9 ; padding : 1px}
+	.detailcontainer .up{float : right ; margin-bottom: 10px; }
+    .detailcontainer .up input{width : 80px; height:30px;}
+	.detailcontainer .bottom {padding: 10px 20px 0px 20px}
+	.detailcontainer .bottom .clear{clear : both;}
+	.detailcontainer .bottom .bottomnav{float:right;}
+	.detailcontainer .bottom .bottomnav input{ width : 80px; height:30px; }
+	.detailcontainer .titlearea .status{float : right;}	
+    .detailcontainer .titlearea .status input{width:100px; height: 50px;}
+	.detailcontainer .recommend{padding-left : 30px}
+    .detailcontainer .subtitle{padding-left : 30px ; }
+	.detailcontainer .contents table tr,th{text-align: center;padding:20px; border-radius:10px;}
+	.detailcontainer .contents table td {height: 100px;  border-radius:10px; background-color:#eafbfa; padding:20px;}
+	.detailcontainer .contents table td textarea{width:100%; resize:none; background-color:#d2f1ef00}
+    .contents .detailcontents{padding : 20px;}
+    .contents .detailcontents .detailcontents_contents{padding:20px; border : 1px solid black}
+	
+    .smart_editor2{width:100%}
+	
+	.togethercontents tr,th,td{}
+	.togethercontents{width : 100%}

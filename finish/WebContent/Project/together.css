@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+*{margin: 0; padding 0 }
+
+.togethercontainer{}
+.togethercontainer .togethermain{border: 1px solid lightgray; width : 70%;margin : 0 auto;}
+
+	.tab {width : 100%;}
+    .tab .tday {width: 200px}
+
+    	.tab td #dis{color: black; text-decoration: none; font-size : 25px; font-weight:100}
+    	.tab td #commentnum{color: black; font-size :20px; font-weight:150; background-color:#e8e6e39c;border-radius:50px; display:inline-block; width :30px}
+     .tab #page a{color: black; text-decoration: none; font-size : 20px;}
+        
+    	#page{
+
+		padding: 10px 0px 10px 0px;
+
+	}
+	
+	#page a{
+	
+		padding: 0px 10px 0px 10px;
+	
+	}
+	
+    
+	.tab,tr,th,td{text-align: center;border-bottom : 1px solid lightgray;border-top : 1px solid lightgray;border-collapse: collapse;padding: 10px 0px 10px 0px;}
+	th{height : 60px;}
+	td{height : 30px;}
+
+.detailcontainer{width : 70% ; margin : 0 auto ; border : 1px solid black}
+
+
+	.side{display:inline; padding-top: 150px; float:left; margin-left: 10px}
+    .side h1{padding-left: 10px; }
+	.side ul {list-style-type:none; padding:0px; }
+	.side li { font-size : 56px; margin-bottom:40px; border-bottom : 4px solid #ec1313; padding-left:70px;}
+	.side li:nth-child(1) { border-bottom : 4px solid #ff4d1e;}
+	.side li:nth-child(2) {border-bottom: 4px solid #FFEB3B;}
+	.side li:nth-child(3) {border-bottom: 4px solid #2196F3;}
+	.side{display:inline; padding-top: 250px; float:left; margin-left: 10px; font-family : "나눔스퀘어 Light"}
+    .side h1{padding-left: 10px;}
+	.side ul {list-style-type:none; padding:0px; }
+	.side li { font-size : 56px; margin-bottom:50px; border-bottom : 4px solid #ec1313; padding-left:70px;}
+
+	
+
+    a{text-decoration:none; color:black;}
+	

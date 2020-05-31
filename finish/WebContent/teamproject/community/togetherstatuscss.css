@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+*{margin: 0; padding 0 }
+
+.togethercontainer{}
+.togethercontainer .togethermain{border: 1px solid lightgray; width : 70%;margin : 0 auto;}
+
+	.tab {width : 100%;}
+    .tab .tday {width: 200px}
+
+    	.tab td #dis{color: black; text-decoration: none; font-size : 25px; font-weight:100}
+    	.tab td #commentnum{color: black; font-size :20px; font-weight:150; background-color:#e8e6e39c;border-radius:50px; display:inline-block; width :30px}
+     .tab #page a{color: black; text-decoration: none; font-size : 20px;}
+        
+    	#page{
+
+		padding: 10px 0px 10px 0px;
+
+	}
+	
+	#page a{
+	
+		padding: 0px 10px 0px 10px;
+	
+	}
+	
+    
+	.tab,tr,th,td{text-align: center;border-bottom : 1px solid lightgray;border-top : 1px solid lightgray;border-collapse: collapse;padding: 10px 0px 10px 0px;}
+	th{height : 60px;}
+	td{height : 30px;}
+
+.detailcontainer{width : 70% ; margin : 0 auto ; border : 1px solid black}

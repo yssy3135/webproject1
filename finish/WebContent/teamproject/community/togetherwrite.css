@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+    *{
+        border: 0px;
+        padding : 0px;
+
+    }
+    
+    
+
+	#contents{
+	
+		background-color: #aaa;
+	}
+	
+	
+	.title  {margin : 10px;}
+	
+	.writemain{ width : 50%; margin : 0 auto; border:1px solid black;}
+	.writemain .top .selectproduct{float : left}
+	.writemain .top{border : 1px solid black}
+	.writemain .top .title textarea{width : 100%; resize : none ; font-size: 20px;}
+	#ct{width : 100% }
+	.wrritemain .bottom{border : 1px solid black}
+	.writemain .bottom .wirtebtn{ float: right }
+	.writemain .bottom .clear{clear:both}
+	.body {margin-top : 30px;}
+
+	.common{width : 100%; resize:none; font-size:30px;}
+
+
+	th{background-color : beige ; padding : 1px}
+	.detailcontainer .up{float : right ; }
+	.detailcontainer .bottom{padding: 10px 20px 0px 20px}	
+	
+	.togethercontents table{ width :100%; padding:40px; }
+
+	.togethercontents tr,th{text-align: center;padding:20px;}
+	.togethercontents tr,th,td{border: 1px solid black}
+	.togethercontents{width : 100%}
